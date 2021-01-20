@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div {
+    position:relative;
+    width: 180px;
+    height: 180px;
+    background: #ddd;
+}
+
+.method-1 {
+    
+} 
+.method-2 {
+ 
+}
+
+.method-3 {
+    
+}
+
+.method-4 {
+    
+}
+
+.method-5 {
+    
+}
+
+.method-6 {
+    
+}
+
+.method-7 {
+ 
+}
+
+
+
+.method-8 {
+
+}
