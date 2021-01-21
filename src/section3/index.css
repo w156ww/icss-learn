@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    position: relative;
+}
+div {
+    width: 200px;
+    height: 200px;
+	line-height:200px;
+	color:#333;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+    border:1px dashed #e6e6e6;
+    opacity:0.9;
+}
+
+.background {
+	display:inline-block;
+    background-color: #ff7700;
+}
+
+.zIndex  {
+    float: left;
+    z-index: -1;
+    background-color: #000;
+}
+
+.inlineBlock {
+    
+	display:inline-block;
+    background-color: #ff7700;
+	margin-left:-100px;
+}
+
+.floatLeft {
+    float: left;
+    z-index: 1;
+    background-color: rgb(190, 80, 181);
+
+}
