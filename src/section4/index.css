@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: url('./image.png') center/100% no-repeat;
+}
+
+/* 兼容性不好 box-reflect 有四个方向可以选，below | above | left | right 代表下上左右。 */
+.method1 {
+    -webkit-box-reflect: below;
+}
+
+.method2 {
+    margin-top: 200px;
+}
+/* 兼容性好  通过 inherit 来继承父元素的属性，然后通过旋转得到对称的背景图 */
+.method2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    bottom: -100%;
+    background: inherit;
+    transform: rotateX(180deg);
+
+}
