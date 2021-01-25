@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+section {
+    width: 200px;
+}
+section+section {
+    margin-top: 20px;
+}
+/* method 1 */
+
+.method1 h2 {
+    text-align: center;
+}
+
+.method1 p {
+    display: inline-block;
+    text-align: left;
+    overflow : hidden;
+    text-overflow: ellipsis;
+}
+
+.method1 span {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+
+/* method2 */
+
+.method2 h2 {
+    position: relative;
+    line-height: 30px;
+}
+
+.method2 p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.method2 .pesudo {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+    top: 0;
+    background: #ddd;
+    text-align: center;
+}
+
+
+
+
