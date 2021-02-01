@@ -15,7 +15,6 @@ function readFile(fileList) {
             sectionTitle[name] = fs.readFileSync(path.join(__dirname, `src/${name}/note.md`), 'utf8').match(/(?<=##\s)(.)+(?=\s)/)[0]
         })
     }
-    console.log('sectionTitle', sectionTitle.section1)
     return sectionTitle
 }
 
@@ -31,7 +30,7 @@ ${sectionTitle[name]} [地址](./${name}/index.html)
     }
     fs.writeFile(path.join(__dirname, 'catalogue.md'), content, {flag: 'w'}, err => {
         if (err) return console.error(err)
-        console.log('success')
+        console.log('目录写入成功！')
     })
 
 }
