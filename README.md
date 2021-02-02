@@ -1,5 +1,9 @@
 # icss-learn
-查缺补漏？？
+不定期将学到的 css 知识记录下来
+
+
+# 说明
+webpack5 + markdown + 多页面应用
 
 # install
 ```javascript
