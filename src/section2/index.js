@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-=======
 import './index.css'
->>>>>>> 599e422e2071274cef529f618714dd642a2a9634
-
 
 function render() {
     const body = document.body;
@@ -15,10 +11,8 @@ function render() {
         </section>`;
     }
     body.innerHTML = temp;
-<<<<<<< HEAD
-=======
 
->>>>>>> 599e422e2071274cef529f618714dd642a2a9634
 }
+
 
 render()

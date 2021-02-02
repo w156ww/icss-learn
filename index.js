@@ -6,7 +6,7 @@ function initRender() {
     app.innerHTML = source;
 }
 
-
+console.log('VERSION', VERSION)
 initRender()
 
 
