@@ -1,13 +1,9 @@
-import source from './catalogue.md'
-
+import source from "./catalogue.md";
 
 function initRender() {
-    const app = document.getElementById('app');
+    const app = document.getElementById("app");
     app.innerHTML = source;
 }
 
-console.log('VERSION', VERSION)
-initRender()
-
-
-
+console.log(`%cVERSION: ${VERSION}`, "color: red;font-size: 40px;");
+initRender();
