@@ -1,6 +1,5 @@
 # icss-learn
-每日一学 css
-
+查缺补漏？？
 
 # install
 ```javascript
@@ -10,10 +9,12 @@ npm i
 ```
 # start
 ```javascript
-sh build.sh // 生成目录文件
-
+sh dev.sh // node > v15
+or
+node build_file.js // 生成目录文件
 yarn dev
 or
+node build_file.js // 生成目录文件
 npm run dev
 ```
 
