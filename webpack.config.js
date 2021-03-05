@@ -60,7 +60,7 @@ module.exports = {
         // host: "0.0.0.0", // 设置为 0.0.0.0, 服务器外部可访问
         port: 8081,
         hot: true,
-        // open: "http://127.0.0.1:8081/home",
+        open: true,
     },
     module: {
         rules: [
